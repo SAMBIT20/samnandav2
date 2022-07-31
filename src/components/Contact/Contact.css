@@ -1,0 +1,12 @@
+.contact {
+  flex-direction: column;
+
+}
+
+.contact-wrapper{
+  display: flex;
+}
+.contact-cal{
+  margin-left: 5px;
+  background-color: #fcfcfc !important;
+}
