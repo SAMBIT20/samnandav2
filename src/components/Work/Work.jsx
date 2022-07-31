@@ -8,7 +8,12 @@ const Work = () => (
       <div className='container'>
         <div className='timeline-block timeline-block-right'>
           <div className='marker active'>
-            <i className='fa fa-check active' aria-hidden='true' />
+            <i className='fa fa-check' aria-hidden='true' />
+            <img
+              className='company-logo'
+              src='https://www.bitcs.in/images/logo-white.png'
+              alt=''
+            />
           </div>
           <div className='timeline-content'>
             <h3>BITCS</h3>

@@ -12,6 +12,11 @@
 .exp-ul{
     margin-top: 6px;
 }
+.company-logo{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
 .description-exp{
 width: 30rem;
 height: 15rem;
