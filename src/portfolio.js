@@ -1,3 +1,7 @@
+import bitcsLogo from './assets/bitcs.jpeg'
+import cnLogo from './assets/CodingNinjas.jpeg'
+import superoLogo from './assets/supero.jpeg'
+
 const header = {
   // all the properties are optional - can be left empty or deleted
   homepage: '#',
@@ -71,7 +75,31 @@ const contact = {
 }
 const work = [
   {
-    company: 'Bitcs',
+    company: 'BITCS',
+    role: 'Software Development Engineer',
+    startDate: 'April(2022)',
+    endDate: 'Present',
+    img: bitcsLogo,
+    description:
+      'Worked on various client projects, majorly built on react, redux, typescript and node.js. One of the project which is a online food and grocery ordering and delivery platform working on a feature which is a premium subscription service  and Lead the testing team of subscription service.',
+  },
+  {
+    company: 'Coding Ninjas',
+    role: 'Teaching Assistance',
+    startDate: 'February(2021)',
+    endDate: 'June(2021)',
+    img: cnLogo,
+    description:
+      'Guiding students to write clean code and resolving Bugs, taking doubt sessions and resolve more than 1600 doubts with an avg. rating of 4.85 in the span of 4 months.',
+  },
+  {
+    company: 'Supero Software Private Limited',
+    role: 'Full Stack Developer Intern',
+    startDate: 'January(2021)',
+    endDate: 'March(2021)',
+    img: superoLogo,
+    description:
+      'Worked on exam management system,an online compiler where users can write code in multiple programming languages which supports C, C++, JAVA, PYTHON, JAVASCRIPT.',
   },
 ]
 const blog = [
