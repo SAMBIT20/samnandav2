@@ -26,36 +26,36 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
-    name: 'Project 1',
+    name: 'E-Books (Digital Library',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'Developing a platform to read books online and help students It will include features like search book by its title, authentication and authorization by Auth0',
+    stack: ['React', 'JavaScript', 'Auth0', ''],
+    sourceCode: 'https://github.com/SAMBIT20/Books',
+    livePreview: 'https://sk-books.vercel.app/',
   },
   {
-    name: 'Project 2',
+    name: 'LifeCareSource.com',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
+      'Home blood collection service in Bhubaneswar Odisha,user can book your appointment for a blood test and a collection agent will visit your doorstep. More than 1k people get help in this pandemic period.',
+    stack: ['CSS3', 'HTML5', 'JavaScript', 'formcarry'],
     sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+    livePreview: 'https://www.lifecaresource.com/',
   },
   {
-    name: 'Project 3',
+    name: 'Jet-Crypto',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'A online platform for get all the information regarding your favorite crypto currency,and able to view prices and charts listed by market capitalization',
+    stack: ['Material UI', 'JavaScript', 'React', 'chart.js'],
+    sourceCode: 'https://github.com/SAMBIT20/Crypto-App',
+    livePreview: 'https://jet-crypto.netlify.app/',
   },
 ]
 
 const skills = [
   // skills can be added or removed
   // if there are no skills, Skills section won't show up
-  'HTML',
-  'CSS',
+  'HTML5',
+  'CSS3',
   'JavaScript',
   'TypeScript',
   'React',
