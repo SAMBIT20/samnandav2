@@ -1,7 +1,7 @@
 ### Setup
 
 ```shell
-git clone https://github.com/rajshekhar26/cleanfolio
+git clone https://github.com/sambit20/cleanfolio
 cd cleanfolio
 ```
 
