@@ -4,9 +4,9 @@ import { work } from '../../portfolio'
 
 const Work = () => (
   <section className='section work' id='work'>
-    <h2 className='section__title'>Work Experience</h2>
+    <h2 className='section__title'>Work Experience ⚡</h2>
     <div className='work-wrapper'>
-      <div className='container'>
+      <div className='container work-container'>
         {work.map((works) => (
           <div className='timeline-block timeline-block-right' key={uniqid()}>
             <div className='marker active'>
