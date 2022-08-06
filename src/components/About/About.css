@@ -6,7 +6,10 @@
 .about__name {
   color: var(--clr-primary);
 }
-
+.about-img{
+  max-width: 25rem;
+  height: auto;
+}
 .about__role {
   margin-top: 1.2em;
 }
@@ -34,4 +37,7 @@
     align-items: flex-start;
     margin-top: 2em;
   }
+    .about-img{
+      display: none;
+    }
 }
