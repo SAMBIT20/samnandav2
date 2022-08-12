@@ -54,7 +54,7 @@ const Navbar = () => {
         {blog.length ? (
           <li className='nav__list-item'>
             <a
-              href='https://sambit-s-blog-v1.vercel.app/'
+              href='https://blogs.samnanda.in/'
               target='_blank'
               onClick={toggleNavList}
               className='link link--nav'
