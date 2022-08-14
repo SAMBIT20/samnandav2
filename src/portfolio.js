@@ -47,7 +47,7 @@ const projects = [
       'A online platform for get all the information regarding your favorite crypto currency,and able to view prices and charts listed by market capitalization',
     stack: ['Material UI', 'JavaScript', 'React', 'chart.js'],
     sourceCode: 'https://github.com/SAMBIT20/Crypto-App',
-    livePreview: 'https://jet-crypto.netlify.app/',
+    livePreview: 'https://jet-crypto-v2.vercel.app/',
   },
 ]
 
