@@ -6,10 +6,27 @@
 .about__name {
   color: var(--clr-primary);
 }
-.about-img{
+.about-img {
   max-width: 25rem;
+  margin-top: 1rem;
   height: auto;
 }
+
+.about-img {
+  animation: updown 3s linear infinite;
+}
+@keyframes updown {
+  0% {
+    transform: translateY(-10px);
+  }
+  50% {
+    transform: translateY(20px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
 .about__role {
   margin-top: 1.2em;
 }
@@ -37,7 +54,7 @@
     align-items: flex-start;
     margin-top: 2em;
   }
-    .about-img{
-      display: none;
-    }
+  .about-img {
+    display: none;
+  }
 }

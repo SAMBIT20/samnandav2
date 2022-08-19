@@ -3,7 +3,7 @@ import LinkedInIcon from '@material-ui/icons/LinkedIn'
 import { Twitter } from '@material-ui/icons'
 import { about } from '../../portfolio'
 import './About.css'
-import samImage from '../../assets/home-sam.webp'
+import samImage from '../../assets/header-img.svg'
 
 const About = () => {
   const { name, role, description, social } = about
