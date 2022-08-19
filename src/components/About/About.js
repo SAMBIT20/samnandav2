@@ -1,4 +1,5 @@
 import GitHubIcon from '@material-ui/icons/GitHub'
+import Typewriter from 'typewriter-effect'
 import LinkedInIcon from '@material-ui/icons/LinkedIn'
 import { Twitter } from '@material-ui/icons'
 import { about } from '../../portfolio'
@@ -13,12 +14,19 @@ const About = () => {
       {name && (
         <>
           <h1>
-            Hi, I am <span className='about__name'>{name}.</span>
+            <Typewriter
+              options={{
+                strings: ['Hi, I am Sambit Nanda.', 'A Front End Engineer ✨'],
+                autoStart: true,
+                loop: true,
+                cursorClassName: 'about__name',
+              }}
+            />
           </h1>
         </>
       )}
 
-      {role && <h2 className='about__role'>A {role}✨</h2>}
+      {/* {role && <h2 className='about__role'>A {role}✨</h2>} */}
       <img src={samImage} alt='sam-img' className='about-img' />
       <p className='about__desc'>{description && description}</p>
       <div className='about__contact center'>
