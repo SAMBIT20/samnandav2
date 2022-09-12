@@ -49,6 +49,14 @@ const projects = [
     sourceCode: 'https://github.com/SAMBIT20/Crypto-App',
     livePreview: 'https://jet-crypto-v2.vercel.app/',
   },
+   {
+    name: "Developer's Studio",
+    description:
+      'A website for all the coders of the YouTube community to learn the notes of the Javascript ,TypeScript, Reactjs, and many more tech stacks of the popular YouTube learning series.',
+    stack: ['JavaScript', 'React', 'markdown'],
+    sourceCode: 'https://github.com/SAMBIT20/Devlopers-studio',
+    livePreview: 'https://devlopers-studio.vercel.app/',
+  },
 ]
 
 const skills = [
