@@ -2,6 +2,20 @@ import bitcsLogo from './assets/bitcs.jpeg'
 import cnLogo from './assets/CodingNinjas.jpeg'
 import superoLogo from './assets/supero.jpeg'
 
+import html from './assets/skills/html.svg'
+import css from './assets/skills/css.svg'
+import typescript from './assets/skills/typescript.svg'
+import javascript from './assets/skills/javascript.svg'
+import reactjs from './assets/skills/reactjs.svg'
+import redux from './assets/skills/redux-seeklogo.com.svg'
+import sass from './assets/skills/sassl.svg'
+import styled from './assets/skills/styled_components.svg'
+import webpack from './assets/skills/webpack.svg'
+import reactnative from './assets/skills/react-native-1.svg'
+import git from './assets/skills/git-icon.svg'
+import jest from './assets/skills/jest-seeklogo.com.svg'
+import material from './assets/skills/material.svg'
+
 const header = {
   // all the properties are optional - can be left empty or deleted
   homepage: '#',
@@ -49,7 +63,7 @@ const projects = [
     sourceCode: 'https://github.com/SAMBIT20/Crypto-App',
     livePreview: 'https://jet-crypto-v2.vercel.app/',
   },
-   {
+  {
     name: "Developer's Studio",
     description:
       'A website for all the coders of the YouTube community to learn the notes of the Javascript ,TypeScript, Reactjs, and many more tech stacks of the popular YouTube learning series.',
@@ -62,19 +76,59 @@ const projects = [
 const skills = [
   // skills can be added or removed
   // if there are no skills, Skills section won't show up
-  'HTML5',
-  'CSS3',
-  'JavaScript',
-  'TypeScript',
-  'React',
-  'React Native',
-  'Redux',
-  'SASS',
-  'Material UI',
-  'Git',
-  'CI/CD',
-  'Jest',
-  'Webpack',
+
+  {
+    skill: 'HTML5',
+    image: html,
+  },
+  {
+    skill: 'CSS3',
+    image: css,
+  },
+  {
+    skill: 'JavaScript',
+    image: javascript,
+  },
+  {
+    skill: 'TypeScript',
+    image: typescript,
+  },
+  {
+    skill: 'React',
+    image: reactjs,
+  },
+  {
+    skill: 'React Native',
+    image: reactnative,
+  },
+  {
+    skill: 'Redux',
+    image: redux,
+  },
+  {
+    skill: 'SASS',
+    image: sass,
+  },
+  {
+    skill: 'Material UI',
+    image: material,
+  },
+  {
+    skill: 'Git',
+    image: git,
+  },
+  {
+    skill: 'Styled Component',
+    image: styled,
+  },
+  {
+    skill: 'Jest',
+    image: jest,
+  },
+  {
+    skill: 'Webpack',
+    image: webpack,
+  },
 ]
 
 const contact = {

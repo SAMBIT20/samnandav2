@@ -5,13 +5,17 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-
 }
 
 .skills__list-item {
   margin: 0.5em;
 }
-.verified-img{
+.verified-img {
   width: 25px;
   height: 25px;
+}
+.skills-image {
+  width: 15px;
+  height: auto;
+  margin-right: 5px;
 }
