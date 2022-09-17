@@ -1,6 +1,6 @@
 .footer {
-  padding: 3em 0;
-  margin-top: 4em;
+  padding-bottom: 3em ;
+  /* margin-top: 4em; */
   text-align: center;
 }
 
@@ -10,9 +10,25 @@
   color: var(--clr-fg);
 }
 
+.user-image{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.user-image img {
+  width: 10%;
+  height: auto;
+}
+
 @media (max-width: 600px) {
   .footer {
     padding: 2em;
     margin-top: 3em;
   }
+  .user-image img {
+  width: 20%;
+  height: auto;
+}
 }
