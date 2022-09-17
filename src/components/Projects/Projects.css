@@ -5,3 +5,14 @@
   grid-template-columns: repeat(auto-fit, minmax(18em, 1fr));
   grid-gap: 2em;
 }
+
+.github-chart {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  max-width: 100%;
+}
+
+.github-chart img {
+  width: 90%;
+}
