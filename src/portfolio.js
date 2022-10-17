@@ -47,6 +47,14 @@ const projects = [
     sourceCode: 'https://github.com/SAMBIT20/Books',
     livePreview: 'https://sk-books.vercel.app/',
   },
+    {
+    name: "Frontend Cheatsheets",
+    description:
+      'Front-end cheatsheets for popular frameworks and development tools based on front-end 🚀. They include everything you should know in one single file.',
+    stack: ['MDX', 'React', 'docusaurus'],
+    sourceCode: 'https://github.com/SAMBIT20/frontend-cheatsheets',
+    livePreview: 'https://frontend-cheatsheets.vercel.app/',
+  },
   {
     name: 'LifeCareSource.com',
     description:
