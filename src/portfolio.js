@@ -144,6 +144,15 @@ const contact = {
   email: 'sambitn20@gmail.com',
 }
 const work = [
+   {
+    company: 'DevToolBox.in',
+    role: 'Founder',
+    startDate: 'December(2022)',
+    endDate: 'Present',
+    img: "https://user-images.githubusercontent.com/50833547/222896076-2e40fdc7-f28d-4729-af8f-ebf8b37a4ea3.png",
+    description:
+      'DevToolBox.in is a “free all-in-one toolbox” solution created to ease your life by preventing bookmark mess.',
+  },
   {
     company: 'BITCS',
     role: 'Software Development Engineer',
