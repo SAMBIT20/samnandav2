@@ -47,7 +47,7 @@ const projects = [
     sourceCode: 'https://github.com/SAMBIT20/Books',
     livePreview: 'https://sk-books.vercel.app/',
   },
-    {
+  {
     name: "Frontend Cheatsheets",
     description:
       'Front-end cheatsheets for popular frameworks and development tools based on front-end 🚀. They include everything you should know in one single file.',
@@ -144,15 +144,6 @@ const contact = {
   email: 'sambitn20@gmail.com',
 }
 const work = [
-   {
-    company: 'DevToolBox.in',
-    role: 'Founder',
-    startDate: 'December(2022)',
-    endDate: 'Present',
-    img: "https://user-images.githubusercontent.com/50833547/222896251-b07d30ec-338a-4b36-84fb-496a27cf2d81.png",
-    description:
-      'DevToolBox.in is a “free all-in-one toolbox” solution created to ease your life by preventing bookmark mess.',
-  },
   {
     company: 'BITCS',
     role: 'Software Development Engineer',
@@ -160,7 +151,34 @@ const work = [
     endDate: 'Present',
     img: bitcsLogo,
     description:
-      'Worked on various client projects, majorly built on react, redux, typescript and node.js. One of the project which is a online food and grocery ordering and delivery platform working on a feature which is a premium subscription service  and Lead the testing team of subscription service.',
+      `Worked on various client projects, majorly built on react, redux, typescript and node.js.
+      One of the projects was an online food and grocery ordering and delivery platform working on a feature which is a premium subscription service.
+      Modernised and implemented web landing pages, built reusable code and libraries for future use, and ensured the technical feasibility of UX designs.
+      Optimised the react frontend website with performance and animations.`,
+  },
+  {
+    company: 'React Developer (Freelance) | freelance',
+    role: 'React Developer',
+    startDate: 'February(2019)',
+    endDate: 'Present',
+    img: "https://user-images.githubusercontent.com/50833547/227133398-2d684f4d-4438-4079-ab35-5c83735c2efb.png",
+    description:
+      `
+      Modernized and implemented web landing pages, built reusable code and libraries
+      for future use, and ensured the technical feasibility of UX designs. Used a variety o
+      f languages, including React, React Native, Node.js, and Material-UI, to write web p
+      ages for fintech firms based in the US.
+      Accomplishments:
+      Built a web page from scratch using HTML to create user-friendly web pages follow
+      ing client requirements
+      Refactored and enhanced existing code
+      Assured all user input was validated before submitting it to the front end
+      Created quality mockups and various prototypes to get clarity on designs
+      Wrote functional and updated technical requirements using new documents and gu
+      ides
+      Ensured high-quality graphic standards and brand consistency while developing fro
+      nt-end modules.
+      `
   },
   {
     company: 'Coding Ninjas',
