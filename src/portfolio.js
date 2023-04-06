@@ -27,7 +27,7 @@ const about = {
   name: 'Sambit Nanda',
   role: 'Front End Engineer',
   description:
-    '"A fresher with experience", this line says exactly who he is. He is a software developer who crafts beautiful web and apps. His perfect balance of technical & managerial skills stands him apart from the crowd.',
+    "Hi, I'm Sambit Kumar, a self-taught passionate front-end developer from India currently working at BITCS as a software development engineer.Since I was a junior in high school, I have been developing websites. I've created a tonne of side projects and have the enchanted ability to create beautiful user experiences with React⚛️.",
   resume: 'https://example.com',
   social: {
     linkedin: 'https://www.linkedin.com/in/nandasambit',
